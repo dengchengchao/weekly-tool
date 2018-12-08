@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KQ.exe" size="252320">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KQ.exe" size="255904">
       <assemblyIdentity name="KQ" version="1.0.0.0" publicKeyToken="68ACA51D6BFC0B69" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>yBEAAW6ubfCrs0f7rxZoX8OWRYM=</dsig:DigestValue>
+        <dsig:DigestValue>gFhGIT7emoP81RU81JfVAaJ7UKY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

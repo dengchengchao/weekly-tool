@@ -43,7 +43,6 @@ namespace ScienceAttendance
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             this.lblHint.Text = "";
             ProMap = WeekSettingHelper.getXmbhWithName(txtUser.Text, txtPwd.Text);
             if (ProMap.Count<1)

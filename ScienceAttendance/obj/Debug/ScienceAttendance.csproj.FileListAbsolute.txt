@@ -19,3 +19,4 @@ F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\obj\Debug\KQ.exe.manife
 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\obj\Debug\KQ.application
 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\obj\Debug\KQ.exe
 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\obj\Debug\KQ.pdb
+F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\obj\Debug\ScienceAttendance.csprojResolveAssemblyReference.cache

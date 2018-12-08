@@ -13,10 +13,10 @@ namespace ScienceAttendance.util
         public static Action<bool> UpLoadHandle { get; set; }
         private static log4net.ILog log = log4net.LogManager.GetLogger( typeof( WeeklyUtils));
 
-        public static readonly string STATISTICS_URL = "http://asr.thunisoft.net/media_server/v1/statistics/infos";
+        public static readonly string STATISTICS_URL = "";
         public static readonly string STATISTICS_PARAM = "info";
-        public static readonly string STATISTICS_VERSION ="http://asr.thunisoft.net/media_server/v1/statistics/version";
-        public static readonly string STATISTICS_UPLOAD = "http://asr.thunisoft.net/media_server/v1/statistics/upload/newest";
+        public static readonly string STATISTICS_VERSION ="";
+        public static readonly string STATISTICS_UPLOAD = "";
         public static int version_now = 1;
 
 

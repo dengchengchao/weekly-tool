@@ -25,8 +25,11 @@ namespace ScienceAttendance
 
         public SessionLisener()
         {
+         
             SystemEvents.SessionSwitch += SystemEvents_SessionSwitch;
+
         }
+
 
         //析构，防止句柄泄漏
         ~SessionLisener()
@@ -49,6 +52,8 @@ namespace ScienceAttendance
                 case SessionSwitchReason.SessionLock:
                     SessionLockAction();
                     break;       
+
+               
             }
         }
 

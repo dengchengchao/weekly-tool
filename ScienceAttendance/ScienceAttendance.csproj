@@ -136,6 +136,7 @@
     <Compile Include="util\AttendanceHelper.cs" />
     <Compile Include="util\CalendayUtil.cs" />
     <Compile Include="util\HttpHelper.cs" />
+    <Compile Include="util\KeyHook.cs" />
     <Compile Include="util\MD5Utils.cs" />
     <Compile Include="util\SessionLisener.cs" />
     <Compile Include="util\TimeHelper.cs" />

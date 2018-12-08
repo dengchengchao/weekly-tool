@@ -143,3 +143,34 @@ System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
 [2018-11-20 20:20:08,578]  10 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
 [2018-11-20 20:20:47,163]  10 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
 [2018-11-20 20:21:07,132]  9 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2018-11-20 20:50:43,444]  8 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2018-12-04 14:06:10,220]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2018-12-04 14:06:10,304]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2018-12-05 09:35:06,036]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action sign -user dengchengchao -pwd 6789@jkl -date 2018-12-04 -sbsj 09:30 
+[2018-12-05 09:35:06,057]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2018-12-05 09:35:37,642]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action weekly -user dengchengchao -pwd 6789@jkl -date 2018-12-04 -sbsj 09:30 -zgs 13.4 -gznr 测试亚伟速录与语音识别融合卡顿问题 -xmbh 256601_1_108 
+[2018-12-05 09:35:37,654]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2018-12-06 09:35:55,987]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action sign -user dengchengchao -pwd 6789@jkl -date 2018-12-05 -sbsj 09:30 
+[2018-12-06 09:35:55,991]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2018-12-06 09:36:15,784]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action weekly -user dengchengchao -pwd 6789@jkl -date 2018-12-05 -sbsj 09:30 -zgs 10.9 -gznr 准备演示环境 -xmbh 256601_1_108 
+[2018-12-06 09:36:15,785]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124

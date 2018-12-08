@@ -9,9 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-/// <summary>
-/// By：https://blog.csdn.net/lai444132348/article/details/26351903
-/// </summary>
+
 namespace ScienceAttendance.util
 {
 
@@ -30,7 +28,7 @@ namespace ScienceAttendance.util
 
                 for (int i = 0; i < cookies.Count; i++)
                 {
-                    cookieContainer.Add(new Uri("http://kq.thunisoft.com/kqgl"), cookies[i]);
+                    cookieContainer.Add(new Uri(""), cookies[i]);
                 }
                 response.Close();
             }
@@ -77,7 +75,7 @@ namespace ScienceAttendance.util
                 request.CookieContainer = cookeis;
                 request.UserAgent = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11";
                 request.ContentLength = postData.Length;
-                request.Host = "kq.thunisoft.com:8080";
+                request.Host = "";
                 Stream requestStream = request.GetRequestStream();
                 requestStream.Write(postData, 0, postData.Length);
                 requestStream.Close();
