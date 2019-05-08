@@ -174,3 +174,213 @@ System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
    在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
    在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
    在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2018-12-11 02:12:49,369]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2018-12-11 02:12:49,432]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2018-12-11 10:41:55,053]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2018-12-11 10:41:55,178]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2018-12-11 10:41:59,162]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [PostForWebResponse] -- 网络请求失败
+System.Net.WebException: 未能解析此远程名称: 'kq.thunisoft.com'
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 ScienceAttendance.util.HttpHelper.PostForWebResponse(String url, IDictionary`2 data, CookieContainer cookeis) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\HttpHelper.cs:行号 81
+[2018-12-11 10:41:59,209]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [PostForWebResponse] -- 网络请求失败
+System.Net.WebException: 未能解析此远程名称: 'kq.thunisoft.com'
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 ScienceAttendance.util.HttpHelper.PostForWebResponse(String url, IDictionary`2 data, CookieContainer cookeis) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\HttpHelper.cs:行号 81
+[2018-12-12 09:36:49,464]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action sign -user dengchengchao -pwd 6789@jkl -date 2018-12-11 -sbsj 09:30 
+[2018-12-12 09:36:49,470]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2018-12-12 09:37:00,828]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action weekly -user dengchengchao -pwd 6789@jkl -date 2018-12-11 -sbsj 09:30 -zgs 8.0 -gznr # -xmbh 256601_1_108 
+[2018-12-12 09:37:00,829]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2018-12-22 17:28:58,844]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2018-12-22 17:28:58,906]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2018-12-25 09:37:58,928]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action sign -user dengchengchao -pwd 6789@jkl -date 2018-12-24 -sbsj 09:30 
+[2018-12-25 09:37:58,946]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2018-12-26 09:30:16,295]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action sign -user dengchengchao -pwd 6789@jkl -date 2018-12-25 -sbsj 09:30 
+[2018-12-26 09:30:16,299]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2018-12-26 09:30:19,528]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action weekly -user dengchengchao -pwd 6789@jkl -date 2018-12-25 -sbsj 09:30 -zgs 9.0 -gznr # -xmbh 256601_1_108 
+[2018-12-26 09:30:19,548]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-01-11 11:23:38,328]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2019-01-11 11:23:38,390]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-01-12 12:53:31,706]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action sign -user dengchengchao -pwd 6789@jkl -date 2019-01-11 -sbsj 09:30 
+[2019-01-12 12:53:31,726]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-01-17 09:37:00,731]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action sign -user dengchengchao -pwd 6789@jkl -date 2019-01-16 -sbsj 09:30 
+[2019-01-17 09:37:00,735]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-01-17 09:37:22,025]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action weekly -user dengchengchao -pwd 6789@jkl -date 2019-01-16 -sbsj 09:30 -zgs 11.0 -gznr # -xmbh 07CE8D4E41E00EAEE624C9244278210D 
+[2019-01-17 09:37:22,052]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-01-18 09:39:39,582]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action sign -user dengchengchao -pwd 6789@jkl -date 2019-01-17 -sbsj 09:30 
+[2019-01-18 09:39:39,588]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-01-18 09:39:49,650]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action weekly -user dengchengchao -pwd 6789@jkl -date 2019-01-17 -sbsj 09:30 -zgs 12.2 -gznr # -xmbh 07CE8D4E41E00EAEE624C9244278210D 
+[2019-01-18 09:39:49,651]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-01-19 21:42:04,397]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action sign -user dengchengchao -pwd 6789@jkl -date 2019-01-18 -sbsj 09:30 
+[2019-01-19 21:42:04,401]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-01-21 09:45:45,331]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2019-01-21 09:45:45,400]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-01-21 13:59:29,870]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2019-01-21 13:59:29,901]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-03-07 15:55:27,545]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2019-03-07 15:55:27,607]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-03-12 09:52:59,933]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2019-03-12 09:52:59,995]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-03-18 15:08:24,323]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2019-03-18 15:08:24,370]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-04-04 15:56:40,730]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2019-04-04 15:56:40,793]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-04-04 20:25:26,801]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2019-04-04 20:25:26,894]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-04-08 09:33:22,224]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2019-04-08 09:33:22,271]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-04-08 09:57:15,299]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2019-04-08 09:57:15,424]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-04-09 09:35:58,331]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [PostForWebResponse] -- 网络请求失败
+System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 ScienceAttendance.util.HttpHelper.PostForWebResponse(String url, IDictionary`2 data, CookieContainer cookeis) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\HttpHelper.cs:行号 84
+[2019-04-09 09:35:58,378]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action sign -user dengchengchao -pwd 6789@jkl -date 2019-04-08 -sbsj 09:30 
+[2019-04-09 09:35:58,391]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-04-09 09:36:03,410]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [PostForWebResponse] -- 网络请求失败
+System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 ScienceAttendance.util.HttpHelper.PostForWebResponse(String url, IDictionary`2 data, CookieContainer cookeis) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\HttpHelper.cs:行号 84
+[2019-04-10 09:24:33,364]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [PostForWebResponse] -- 网络请求失败
+System.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 ScienceAttendance.util.HttpHelper.PostForWebResponse(String url, IDictionary`2 data, CookieContainer cookeis) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\HttpHelper.cs:行号 84
+[2019-04-10 09:24:33,372]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action sign -user dengchengchao -pwd 6789@jkl -date 2019-04-09 -sbsj 09:30 
+[2019-04-10 09:24:33,373]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-04-10 09:24:33,782]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [PostForWebResponse] -- 网络请求失败
+System.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 ScienceAttendance.util.HttpHelper.PostForWebResponse(String url, IDictionary`2 data, CookieContainer cookeis) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\HttpHelper.cs:行号 84
+[2019-04-10 09:25:04,482]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action weekly -user dengchengchao -pwd 6789@jkl -date 2019-04-09 -sbsj 09:30 -zgs 12.8 -gznr # -xmbh 256601_1_108 
+[2019-04-10 09:25:04,493]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-04-10 09:25:04,499]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [PostForWebResponse] -- 网络请求失败
+System.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 ScienceAttendance.util.HttpHelper.PostForWebResponse(String url, IDictionary`2 data, CookieContainer cookeis) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\HttpHelper.cs:行号 84
+[2019-04-12 18:48:33,016]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2019-04-12 18:48:33,048]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-05-01 14:46:50,286]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2019-05-01 14:46:50,365]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
+[2019-05-08 09:26:29,794]  1 -- INFO  -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 参数信息：-action test 
+[2019-05-08 09:26:29,826]  1 -- ERROR -- ScienceAttendance.util.WeeklyUtils [cmdExeStart] -- 启动exe服务失败：
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 ScienceAttendance.util.WeeklyUtils.cmdExeStart(IDictionary`2 arguments) 位置 F:\ScienceAttendance\ScienceAttendance\ScienceAttendance\util\WeeklyUtils.cs:行号 124
